@@ -1,5 +1,5 @@
 <template>
-  <div class="singer" v-show="singers.length">
+  <div class="singer">
     <list-view :data="singers" ref="list"></list-view>
   </div>
 </template>
